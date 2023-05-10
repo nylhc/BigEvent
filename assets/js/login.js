@@ -30,7 +30,7 @@ $(function () {
   })
 
   var layer = layui.layer
-  const baseURL = 'http://big-event-api-t.itheima.net'
+  // const baseURL = 'http://big-event-api-t.itheima.net'
   // 注册
   $('#form_reg').on('submit', function (e) {
     e.preventDefault()
