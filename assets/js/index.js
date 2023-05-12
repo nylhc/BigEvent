@@ -1,4 +1,11 @@
 $(function () {
+  window.getUserInfo = getUserInfo
+  window.getImg = getImg
+
+  function getImg () {
+    return $('.userinfo img').attr('src')
+  }
+
   function getUserInfo () {
     $.ajax({
       type: "GET",
